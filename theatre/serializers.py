@@ -12,6 +12,7 @@ from .models import (
     Ticket,
 )
 
+
 class ActorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Actor
